@@ -21,7 +21,7 @@ public class Producer implements Runnable {
 		try {
 			Thread.sleep(2000);
 			queue.put("1");
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			queue.put("2");
 			Thread.sleep(2000);
 			queue.put("3");
